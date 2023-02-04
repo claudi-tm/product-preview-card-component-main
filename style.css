@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap");
 
 :root {
-	--width-mobile: 375px;
+	--width-mobile: 23.43rem;
 	--width-desktop: 1440px;
 	--dark-cean: hsl(158, 36%, 37%);
     --very-dark-cean: hsl(158, 34%, 18%);
@@ -27,15 +27,28 @@ body {
 	background-color: var(--cream);
 	border: none;
 	/* width: var(--width-mobile); */
-	margin-top: 2rem;
+    margin: 2rem 0;
+    
+	/* border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 0%; */
 }
 
-.card-type {
-    
+.title {
+    font-size: medium;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    opacity: 80%;
 }
 
 .card-body {
 	background-color: var(--white);
+    border-radius: 4%;
 }
 
 .card-img-top {
@@ -79,8 +92,10 @@ body {
 	margin: auto;
 }
 
-/* @media screen and (min-width: 768px) {
-	.content {
-		width: var(--width-desktop);
-	}
-} */
+@media screen and (min-width: 768px) {
+	.card-body {
+        position: absolute;
+        top: 20px;
+        left: 250px;
+    }
+}
