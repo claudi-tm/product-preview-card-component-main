@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution](https://github.com/claudi-tm/product-preview-card-component-main)
--   Live Site URL: [](https://claudi-tm.github.io/product-preview-card-component-main/)
+-   Solution URL: [Solution Repository](https://github.com/claudi-tm/product-preview-card-component-main)
+-   Live Site URL: [Deployed Solution](https://claudi-tm.github.io/product-preview-card-component-main/)
 
 ## My Process
 

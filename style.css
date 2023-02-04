@@ -24,6 +24,12 @@ body {
 	background-color: var(--cream);
 }
 
+input {
+	background-color: transparent;
+	border: none;
+	color: var(--white);
+}
+
 .card {
 	background-color: var(--cream);
 	border: none;
@@ -71,12 +77,17 @@ body {
 }
 
 .btn {
-	display: block;
+	display: flex;
+	justify-content: space-around;
 	background-color: var(--dark-cean);
 	color: var(--white);
 	width: 20rem;
 	margin: auto;
 	/* padding: 0.5rem 8rem; */
+}
+
+.cart {
+	width: 20%;
 }
 
 .price {
